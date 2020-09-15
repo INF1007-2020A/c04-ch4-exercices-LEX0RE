@@ -28,7 +28,11 @@ def get_number_of_char(string: str, char: str) -> int:
 
 
 def get_number_of_words(sentence: str, word: str) -> int:
-    return get_number_of_char(sentence, ' ') + 1
+    occurence = 0
+    for x in string:
+        if x == char:
+            occurence += 1
+    return occurence
 
 
 def main() -> None:
