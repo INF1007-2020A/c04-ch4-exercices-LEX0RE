@@ -28,20 +28,10 @@ def get_number_of_char(string: str, char: str) -> int:
 
 
 def get_number_of_words(sentence: str, word: str) -> int:
-    inword = False
-    inspace = False
     occurence = 0
-    for x in sentence:
-        if x != ' ':
-            inword = True
-            inspace = False
+    for x in string:
+        if x == word:
             occurence += 1
-        else:
-            if inspace == True:
-                pass
-            else:
-                inspace = True
-                inword = False
     return occurence
 
 
