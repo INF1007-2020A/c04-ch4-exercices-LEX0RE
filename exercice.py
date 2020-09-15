@@ -29,6 +29,7 @@ def get_number_of_char(string: str, char: str) -> int:
 
 def get_number_of_words(sentence: str, word: str) -> int:
     inword = False
+    inspace = False
     
     for x in string:
         if x == char:
