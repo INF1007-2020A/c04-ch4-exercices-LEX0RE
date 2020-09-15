@@ -39,7 +39,7 @@ def get_number_of_words(sentence: str, word: str) -> int:
             if inspace == True:
                 pass
             else
-                
+                inspace = 
     return occurence
 
 
