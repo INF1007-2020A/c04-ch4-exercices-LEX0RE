@@ -34,9 +34,9 @@ def get_number_of_words(sentence: str, word: str) -> int:
     for x in string:
         if x != ' ':
             inword = True
-            
+            inspace = False
             occurence += 1
-        else
+        else:
             if inspace == True:
                 pass
             else
