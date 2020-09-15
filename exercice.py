@@ -31,7 +31,7 @@ def get_number_of_words(sentence: str, word: str) -> int:
     inword = False
     inspace = False
     occurence = 0
-    for x in string:
+    for x in sentence:
         if x != ' ':
             inword = True
             inspace = False
