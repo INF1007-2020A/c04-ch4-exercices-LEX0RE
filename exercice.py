@@ -31,6 +31,7 @@ def get_number_of_words(sentence: str, word: str) -> int:
     occurence = 0
     while sentence.find(word):
         sentence = sentence[sentence.find(word) + len(word)]
+        
     return occurence
 
 
