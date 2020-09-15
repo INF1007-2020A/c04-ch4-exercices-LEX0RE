@@ -29,7 +29,7 @@ def get_number_of_char(string: str, char: str) -> int:
 
 
 def get_number_of_words(sentence: str, word: str) -> int:
-    return get_number_of_char(sentence, ' ')
+    return get_number_of_char(sentence, ' ') + 1
 
 
 def main() -> None:
