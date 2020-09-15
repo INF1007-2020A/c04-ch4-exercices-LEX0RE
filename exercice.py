@@ -29,7 +29,7 @@ def get_number_of_char(string: str, char: str) -> int:
 
 def get_number_of_words(sentence: str, word: str) -> int:
     occurence = 0
-    while sentence.find(word):
+    while sentence.find(word) != -1:
         sentence = sentence[:sentence.find(word) + len(word)]
         occurence + 1
     return occurence
