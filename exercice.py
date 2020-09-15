@@ -14,9 +14,9 @@ def remove_third_char(string: str) -> str:
 
 
 def replace_char(string: str, old_char: str, new_char: str) -> str:
-    while 
-    pos = string.find(old_char)
-    string = string[:pos] + new_char + string[pos + 1:]
+    while string.find(old_char):
+        pos = string.find(old_char)
+        string = string[:pos] + new_char + string[pos + 1:]
     return string
 
 
